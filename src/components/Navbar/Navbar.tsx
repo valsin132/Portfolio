@@ -43,7 +43,7 @@ export function Navbar() {
         </li>
         <li>
           <NavLink
-            to="https://linkedin.com/in/valdemaras-sinkevicius-a5832b2aa"
+            to="https://linkedin.com/in/valdemaras-sinkevicius"
             onClick={handleMenuItemClick}
             target="_blank">
             <FaLinkedin className={cx('navbar__linkedin-icon')} />
