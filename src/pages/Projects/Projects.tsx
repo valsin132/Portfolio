@@ -4,6 +4,7 @@ import lunchApp from '../../assets/images/lunchApp.png';
 import todoApp from '../../assets/images/todoApp.png';
 import homeService from '../../assets/images/homeService.png';
 import carRent from '../../assets/images/carRent.png';
+import weatherApp from '../../assets/images/weatherApp.png';
 import styles from './Projects.module.css';
 
 const cx = classNames.bind(styles);
@@ -13,6 +14,16 @@ export function Projects() {
     <div>
       <h2 className={cx('projects-heading')}>Projects I&apos;m proud of</h2>
       <Card
+        title="Weather-App"
+        description="A Weather App is a full-stack web application providing real-time weather data using the OpenWeatherMap API, with a React frontend and a Node.js backend for logging user interactions."
+        technologiesHeading="Technologies used include:"
+        technologies="HTML, SASS, Vite ( REACT / JS ), Node.js, Express, MongoDB"
+        img={weatherApp}
+        isLink
+        projectLink="https://weather-app-frontend-rouge-three.vercel.app"
+        githubtLink="https://github.com/valsin132/weather-app-frontend"
+      />
+      <Card
         title="Car-Rent-App"
         description="A car rental platform is a full-stack web application offering users an easy way to find and book cars. The app includes user and admin panels. User Panel: browse cars, select rental dates, and confirm bookings. Admin Panel: manage car listings, add new vehicles, and oversee reservations. The intuitive design ensures a smooth user experience, from registration to booking confirmation."
         technologiesHeading="Technologies used include:"
@@ -21,6 +32,7 @@ export function Projects() {
         isLink
         projectLink="https://car-rent-app-iota.vercel.app"
         githubtLink="https://github.com/valsin132/CarRentApp-main"
+        isReverse
       />
       <Card
         title="Lunch-App"
@@ -31,7 +43,6 @@ export function Projects() {
         isLink
         projectLink="https://lunch-app-beta.vercel.app"
         githubtLink="https://github.com/valsin132/Lunch-app"
-        isReverse
       />
       <Card
         title="Find Home Service & Repair"
@@ -42,6 +53,7 @@ export function Projects() {
         isLink
         projectLink="https://home-service-app-frontend-one.vercel.app"
         githubtLink="https://github.com/valsin132/home-service-app"
+        isReverse
       />
       <Card
         title="To-Do-App"
@@ -52,7 +64,6 @@ export function Projects() {
         isLink
         projectLink="https://to-do-app-one-wheat.vercel.app"
         githubtLink="https://github.com/valsin132/to-do-app"
-        isReverse
       />
     </div>
   );
