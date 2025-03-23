@@ -28,7 +28,7 @@ export function Footer() {
         </li>
       </ul>
       <p>
-        <small>&copy; {currentYear} Valdemaras Sinkevicius. All rights reserved.</small>
+        <small>&copy; {currentYear} valdemaras.net, All rights reserved.</small>
       </p>
     </footer>
   );
