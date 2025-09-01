@@ -15,8 +15,8 @@ export function Projects() {
     <div>
       <h2 className={cx('projects-heading')}>Projects I&apos;m proud of</h2>
       <Card
-        title="Weather-App"
-        description="A Weather App is a full-stack web application providing real-time weather data using the OpenWeatherMap API, with a React frontend and a Node.js backend for logging user interactions."
+        title="Forest House Rent"
+        description="Forest House Rent is a modern web application designed to showcase and promote a countryside retreat located in the forest near Vilnius. The platform provides visitors with a seamless way to explore the property, discover its amenities, and make booking inquiries, all built with a mobile-first approach for all screen sizes."
         technologiesHeading="Technologies used include:"
         technologies="HTML, Tailwind CSS, Vite ( REACT / TS )"
         img={gvazdikuSodyba}
