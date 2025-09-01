@@ -40,6 +40,7 @@
 
 /* stylelint-disable-next-line media-feature-range-notation */
 @media (min-width: 800px) {
+  
   .card__container {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
@@ -71,6 +72,7 @@
 
 /* stylelint-disable-next-line media-feature-range-notation */
 @media (max-width: 576px) {
+  
   & .card {
     padding: $spacing-s $spacing-s;
   }
