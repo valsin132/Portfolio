@@ -5,6 +5,7 @@ import todoApp from '../../assets/images/todoApp.png';
 import homeService from '../../assets/images/homeService.png';
 import carRent from '../../assets/images/carRent.png';
 import weatherApp from '../../assets/images/weatherApp.png';
+import gvazdikuSodyba from '../../assets/images/gvazdikuSodyba.png';
 import styles from './Projects.module.css';
 
 const cx = classNames.bind(styles);
@@ -17,11 +18,19 @@ export function Projects() {
         title="Weather-App"
         description="A Weather App is a full-stack web application providing real-time weather data using the OpenWeatherMap API, with a React frontend and a Node.js backend for logging user interactions."
         technologiesHeading="Technologies used include:"
+        technologies="HTML, Tailwind CSS, Vite ( REACT / TS )"
+        img={gvazdikuSodyba}
+        projectLink="https://gvazdikusodyba.lt"
+      />
+      <Card
+        title="Weather-App"
+        description="A Weather App is a full-stack web application providing real-time weather data using the OpenWeatherMap API, with a React frontend and a Node.js backend for logging user interactions."
+        technologiesHeading="Technologies used include:"
         technologies="HTML, SASS, Vite ( REACT / JS ), Node.js, Express, MongoDB"
         img={weatherApp}
-        isLink
         projectLink="https://weather-app-frontend-rouge-three.vercel.app"
         githubtLink="https://github.com/valsin132/weather-app-frontend"
+        isReverse
       />
       <Card
         title="Car-Rent-App"
@@ -29,10 +38,8 @@ export function Projects() {
         technologiesHeading="Technologies used include:"
         technologies="HTML, CSS, REACT, Node.js, Express, MongoDB"
         img={carRent}
-        isLink
         projectLink="https://car-rent-app-iota.vercel.app"
         githubtLink="https://github.com/valsin132/CarRentApp-main"
-        isReverse
       />
       <Card
         title="Lunch-App"
@@ -40,9 +47,9 @@ export function Projects() {
         technologiesHeading="Technologies used include:"
         technologies="HTML, PostCSS, Vite ( REACT / TypeScript )"
         img={lunchApp}
-        isLink
         projectLink="https://lunch-app-beta.vercel.app"
         githubtLink="https://github.com/valsin132/Lunch-app"
+        isReverse
       />
       <Card
         title="Find Home Service & Repair"
@@ -50,10 +57,8 @@ export function Projects() {
         technologiesHeading="Technologies used include:"
         technologies="HTML, SASS, Vite ( REACT / TypeScript ), Node.js, Express, MongoDB"
         img={homeService}
-        isLink
         projectLink="https://home-service-app-frontend-one.vercel.app"
         githubtLink="https://github.com/valsin132/home-service-app"
-        isReverse
       />
       <Card
         title="To-Do-App"
@@ -61,9 +66,9 @@ export function Projects() {
         technologiesHeading="Technologies used include:"
         technologies="HTML, CSS, Vite ( REACT )"
         img={todoApp}
-        isLink
         projectLink="https://to-do-app-one-wheat.vercel.app"
         githubtLink="https://github.com/valsin132/to-do-app"
+        isReverse
       />
     </div>
   );
