@@ -2,7 +2,7 @@
 
 .projects-heading {
   font-size: $font-size-m;
-  padding: $spacing-s;
+  padding:0 $spacing-s;
 }
 
 /* stylelint-disable-next-line media-feature-range-notation */
