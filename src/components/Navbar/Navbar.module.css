@@ -108,6 +108,10 @@
 
 @media (max-width: 576px) {
 
+  .navbar__wrapper {
+    padding: $spacing-l $spacing-s $spacing-m;
+  }
+
   .navbar__logo {
     font-size: $font-size-s;
   }
