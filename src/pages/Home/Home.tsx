@@ -13,7 +13,7 @@ export function Home() {
         I develop and create web applications, focusing on the front end of websites.
       </h2>
       <p className={cx('intro__tech')}>
-        I&apos;m a developer specializing in HTML, CSS, JS, TS, React, NodeJS, Express, MongoDB,
+        I&apos;m a developer specializing in HTML, CSS, TAILWIND, JS, TS, React, NodeJS, Express, MongoDB,
         user experience.
       </p>
     </div>
