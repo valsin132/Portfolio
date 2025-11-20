@@ -25,7 +25,7 @@ export function Projects() {
       />
       <Card
         title="Lunas's shop"
-        description="Forest House Rent is a modern web application designed to showcase and promote a countryside retreat located in the forest near Vilnius. The platform provides visitors with a seamless way to explore the property, discover its amenities, and make booking inquiries, all built with a mobile-first approach for all screen sizes."
+        description="Luna’s Shop is a clothing e-shop web app I built for a Tesonet hackathon. The project was created to test and demonstrate AI chat capabilities inside an e-commerce environment. Users can browse clothing items and interact with an integrated AI assistant that helps with navigation, product details, and general questions."
         technologiesHeading="Technologies used include:"
         technologies="HTML, Tailwind CSS, Vite ( REACT / TS )"
         img={lunasshop}
