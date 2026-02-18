@@ -32,7 +32,7 @@ export function Projects() {
         projectLink="https://lunasshop.online/"
         isReverse
       />
-      <Card
+      {/* <Card
         title="Weather-App"
         description="A Weather App is a full-stack web application providing real-time weather data using the OpenWeatherMap API, with a React frontend and a Node.js backend for logging user interactions."
         technologiesHeading="Technologies used include:"
@@ -40,7 +40,7 @@ export function Projects() {
         img={weatherApp}
         projectLink="https://weather-app-frontend-rouge-three.vercel.app"
         githubtLink="https://github.com/valsin132/weather-app-frontend"
-      />
+      /> */}
       <Card
         title="Car-Rent-App"
         description="A car rental platform is a full-stack web application offering users an easy way to find and book cars. The app includes user and admin panels. User Panel: browse cars, select rental dates, and confirm bookings. Admin Panel: manage car listings, add new vehicles, and oversee reservations. The intuitive design ensures a smooth user experience, from registration to booking confirmation."
@@ -49,7 +49,6 @@ export function Projects() {
         img={carRent}
         projectLink="https://car-rent-app-iota.vercel.app"
         githubtLink="https://github.com/valsin132/CarRentApp-main"
-        isReverse
       />
       <Card
         title="Lunch-App"
@@ -59,6 +58,7 @@ export function Projects() {
         img={lunchApp}
         projectLink="https://lunch-app-beta.vercel.app"
         githubtLink="https://github.com/valsin132/Lunch-app"
+        isReverse
       />
       <Card
         title="Find Home Service & Repair"
@@ -68,7 +68,6 @@ export function Projects() {
         img={homeService}
         projectLink="https://home-service-app-frontend-one.vercel.app"
         githubtLink="https://github.com/valsin132/home-service-app"
-        isReverse
       />
       <Card
         title="To-Do-App"
@@ -78,6 +77,7 @@ export function Projects() {
         img={todoApp}
         projectLink="https://to-do-app-one-wheat.vercel.app"
         githubtLink="https://github.com/valsin132/to-do-app"
+        isReverse
       />
     </div>
   );
