@@ -4,7 +4,7 @@
   padding: $spacing-l $spacing-s;
 
   & .card__title {
-    color: $color-aqua;
+    color: $color-white;
     font-family: $font-family-mono;
     font-size: $font-size-m;
     padding: $spacing-s 0 0;
